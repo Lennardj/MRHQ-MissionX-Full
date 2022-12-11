@@ -1,0 +1,15 @@
+.LObjContent{
+    margin: 80px;
+    display:flex;
+    flex-direction: row;
+}
+
+/* .LeftArrow-LObjContent{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline;
+    padding: 10px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    background-color: bisque;
+} */

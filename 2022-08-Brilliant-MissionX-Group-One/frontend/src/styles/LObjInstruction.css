@@ -1,0 +1,48 @@
+.LObjInstruction{
+    display: flex;
+    flex-direction: row;
+}
+.LObjLeftArrowContainer{
+    background-color: #E4EFF4;
+    border: solid #FFFF;
+    border-radius: 120px;
+    padding: 10px 12px;
+    margin: 0px;
+    margin-top: 190px;
+
+}
+.LObjLeftArrow{
+    display: inline-block;
+    border: solid  #f82288;
+    border-width: 0 5px 5px 0;
+    padding: 10px;
+    transform: rotate(135deg);
+   
+}
+.InstructionContent{
+
+    margin-top: 30px;
+}
+.InstructionContent img{
+    width: 600px;
+}
+.LObjContainer{
+    margin: 0 30px;
+    padding: 0 20px;
+}
+.LObjRightArrowContainer{
+    background-color: #E4EFF4;
+    border: solid #FFFF;
+    border-radius: 120px;
+    padding: 10px 12px;
+    margin-top: 200px;
+    
+
+}
+.LObjRightArrow{
+    display: inline-block;
+    border: solid #f82288;
+    border-width: 0 5px 5px 0;
+    padding: 10px;
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,16 @@
+.App {
+  font-family: inherit;
+}
+/* Whole APP */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.back {
+  background-color: aqua;
+}
+/* USe this after you've separated the components */
+/* .App {
+  display: flex;
+  flex-direction: column;
+} */

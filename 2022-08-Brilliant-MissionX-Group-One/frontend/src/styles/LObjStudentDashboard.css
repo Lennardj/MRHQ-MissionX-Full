@@ -1,0 +1,23 @@
+
+.App{
+    height: 100vh;
+}
+.LObj {
+  display: flex;
+  flex-direction: row;
+}
+.lobj-main{
+    display: flex;
+    justify-content: center;
+    background-color: #B2E4FA;
+    width: 100%;    
+}
+.lobj-main2{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 80vw;
+    background-color: #D9F2FD;
+    align-items: center;
+}

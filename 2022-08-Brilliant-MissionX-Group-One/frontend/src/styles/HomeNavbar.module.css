@@ -1,0 +1,104 @@
+li,
+a,
+button {
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: #41baef;
+  height: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+}
+
+.navbarLogo {
+  cursor: pointer;
+  height: 50px;
+}
+
+.navbarLinks {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.navbarLinks li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 0px 30px;
+}
+
+.navbarLinks li a:hover {
+  color: black;
+}
+
+.navbarRight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 65px;
+  text-decoration: none;
+  padding: 3px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbarRight p {
+  height: 10px;
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.Maori {
+  cursor: pointer;
+  height: 10px;
+  margin: 3px 8px;
+}
+
+.NZ {
+  cursor: pointer;
+  height: 10px;
+}
+
+@media (max-width: 1500px) {
+  header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbarLinks {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbarLogo {
+    margin: 0;
+  }
+
+  .navbarRight {
+    margin: 0;
+  }
+
+  .navLang {
+    display: none;
+  }
+
+  .Maori {
+    display: none;
+  }
+
+  .NZ {
+    display: none;
+  }
+}

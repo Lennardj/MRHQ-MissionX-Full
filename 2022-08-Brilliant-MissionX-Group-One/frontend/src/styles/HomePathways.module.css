@@ -1,0 +1,272 @@
+.homeProgContainer {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+}
+
+.homeProgTitle {
+  letter-spacing: 1px;
+  margin: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+}
+.teachingImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teachingImages {
+  height: 200px;
+  margin: 20px 15px;
+}
+
+.pathwaysTitle {
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  font-size: 35px;
+  font-family: "Nunito", sans-serif;
+}
+
+.pathwaysBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.buttonClicked {
+  margin: 10px 30px;
+  padding: 5px 0;
+  width: 15%;
+  max-width: 250px;
+  font-size: 13px;
+  background: transparent;
+  border: none;
+  border-radius: 7px;
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #6e6e6e;
+  background-color: #8080802c;
+}
+
+.btnActive {
+  margin: 10px 30px;
+  padding: 5px 0;
+  width: 15%;
+  max-width: 250px;
+  font-size: 13px;
+  background: transparent;
+  border-radius: 7px;
+  font-family: "Open Sans", sans-serif;
+  border: 3px solid #41baef;
+  color: gray;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.btnFocus {
+  margin: 10px 30px;
+  padding: 5px 0;
+  width: 15%;
+  max-width: 250px;
+  font-size: 13px;
+  background: transparent;
+  border-radius: 7px;
+  font-family: "Open Sans", sans-serif;
+  border: 3px solid #41baef;
+  color: gray;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.btnFocus:focus {
+  margin: 10px 30px;
+  padding: 5px 0;
+  width: 15%;
+  max-width: 250px;
+  font-size: 13px;
+  background: transparent;
+  border: none;
+  border-radius: 7px;
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #6e6e6e;
+  background-color: #8080802c;
+}
+
+/* CONDITIONAL RENDERING  */
+
+/* .pHeader {
+  padding: 40px 0px 30px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #464646;
+}
+
+.pContent {
+  font-family: "Open Sans", sans-serif;
+  color: #464646;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.listContent {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.listHeader {
+  color: #464646;
+  margin: 20px 0px 0px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.listPara {
+  color: #464646;
+  margin: 0px 0px 10px 0px;
+  font-size: 15px;
+  font-weight: 600;
+} */
+
+.listMainGroup {
+  color: #606060;
+}
+
+.listMainTitle {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  padding: 40px 0px 30px 0px;
+  font-size: 30px;
+}
+
+.listSubTitle {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.programmeMainGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.programmeList {
+  display: flex;
+}
+
+.programmeListTitle {
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  color: #606060;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.programmeListInfo {
+  color: #606060;
+  margin: 0px 0px 10px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.showContent {
+  display: flex;
+  text-align: left;
+  /* background-color: #8080802c; */
+  padding-left: 300px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1500px) {
+  .homeProgContainer {
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .pathwaysBtns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .buttonClicked {
+    margin: 15px 30px;
+    width: 40%;
+    height: 40%;
+    /* max-width: 250px; */
+    font-size: 12px;
+    background: transparent;
+    border: none;
+    border-radius: 7px;
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    cursor: pointer;
+    color: #6e6e6e;
+    background-color: #8080802c;
+  }
+
+  .btnActive {
+    margin: 15px 30px;
+    width: 40%;
+    height: 40%;
+    /* max-width: 250px; */
+    font-size: 12px;
+    background: transparent;
+    border-radius: 7px;
+    font-family: "Open Sans", sans-serif;
+    border: 3px solid #41baef;
+    color: #6e6e6e;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    cursor: pointer;
+  }
+
+  .showContent {
+    display: flex;
+    justify-content: center;
+    /* background-color: #8080802c; */
+    /* padding-left: 300px;
+    padding-right: 200px;
+    padding-bottom: 50px; */
+    width: 100%;
+  }
+
+  .listMainGroup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .listSubTitle {
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .programmeListInfo {
+    color: #606060;
+    margin-bottom: 20px;
+    width: 500px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: none;
+  }
+}

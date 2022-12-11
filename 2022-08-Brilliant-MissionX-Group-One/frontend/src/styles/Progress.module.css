@@ -1,0 +1,63 @@
+.Main {
+  display: flex;
+}
+
+.sideBar {
+  flex-direction: column;
+  text-align: center;
+  background-color: #4abbf0;
+  height: 100vh;
+  width: 16%;
+}
+.mainBar1 {
+  background-color: #bfe5f2;
+  width: 100%;
+}
+/* h2{
+    padding: 60px;
+} */
+.mainBar2 {
+  border-radius: 15px;
+  height: 80%;
+  margin: 70px 28px;
+  color: grey;
+  background-color: #e3f6fa;
+}
+
+/* ul,
+li {
+  margin: 1px 2;
+  color: white;
+  list-style: none;
+  text-align: left;
+} */
+.progressTracker {
+  background-color: #bfe5f2;
+  padding: 0;
+}
+
+.arrow2 {
+  border-radius: 9px;
+  padding: 8px;
+  width: 65px;
+  background-color: #bfe5f2;
+  margin-left: 190px;
+  margin-top: 150px;
+}
+
+/* .icons {
+  margin-left: 0;
+  margin-right: 45px;
+display: flex;
+flex-direction: column;
+
+}
+.icons, img{
+    width: 25px;
+    
+}
+
+.lowerIcon{
+    margin-top: 80%;
+    
+} */

@@ -1,0 +1,24 @@
+.Nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contain1 {
+  width: 130px;
+  margin: 0 30px;
+  margin-right: 695px;
+}
+
+.navbarBtns {
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 50px;
+  margin-top: 20px;
+  font-weight: 700;
+  color: white;
+}
+.navImgs {
+  margin: 3px;
+  width: 17px;
+}
